@@ -1,0 +1,25 @@
+{
+  "name": "@rqbik/mtext",
+  "version": "1.0.4",
+  "description": "Parse minecraft text to JSON format",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {},
+  "devDependencies": {},
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "yarn build && yarn start"
+  },
+  "keywords": [
+    "minecraft",
+    "parsing",
+    "colors",
+    "no-dependencies"
+  ],
+  "author": "rqbik",
+  "license": "MIT"
+}
