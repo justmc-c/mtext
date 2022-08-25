@@ -30,7 +30,7 @@ class MinecraftColor {
   static GREEN = colorOf(85, 255, 85, 'green');
   static AQUA = colorOf(85, 255, 255, 'aqua');
   static RED = colorOf(255, 85, 85, 'red');
-  static PURPLE = colorOf(255, 85, 255, 'purple');
+  static LIGHT_PURPLE = colorOf(255, 85, 255, 'light_purple');
   static YELLOW = colorOf(255, 255, 85, 'yellow');
   static WHITE = colorOf(255, 255, 255, 'white');
 
@@ -50,7 +50,7 @@ class MinecraftColor {
     a: MinecraftColor.GREEN,
     b: MinecraftColor.AQUA,
     c: MinecraftColor.RED,
-    d: MinecraftColor.PURPLE,
+    d: MinecraftColor.LIGHT_PURPLE,
     e: MinecraftColor.YELLOW,
     f: MinecraftColor.WHITE,
   };
